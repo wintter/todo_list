@@ -1,7 +1,7 @@
 <html>
 <head>
     <? $this->registerAssets(array('js' => ['https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js', 'index.js'],
-    'css' => ['https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css', 'style.css'])); ?>
+    'css' => ['https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css', 'style.css', 'http://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin,cyrillic'])); ?>
     <? $this->meta('<meta charset="utf-8">'); ?>
 </head>
 <body>
