@@ -24,9 +24,9 @@
         <div class="modal-dialog modal-sm">
             <div class="modal-content">
                 <input type="text" class="hidden_input_delete_id" style="visibility: hidden;"/>
-                <span>Удаление задания</span>
-                <button type="button" class="btn btn-primary delete_task">Вы точно хотите удалить?</button>
-                <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+                <div align="center">Удаление задания</div><br/>
+                <button type="button" class="btn btn-primary delete_task margin-bottom_20 margin_left_4">Вы точно хотите удалить?</button>
+                <button type="button" class="btn btn-default margin-bottom_20" data-dismiss="modal">Отмена</button><br/>
             </div>
         </div>
     </div>
