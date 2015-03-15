@@ -181,8 +181,7 @@ $(document).ready(function () {
             dataType: "json",
             url: "index/saveProject",
             success: function (result) {
-                console.log(result);
-/*                location.reload();*/
+                location.reload();
             }
         });
     });
