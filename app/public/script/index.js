@@ -113,6 +113,7 @@ $(document).on('click', '.update_task', function () {
         success: function () {
             if (type == 1) {
                 $('[data-project-id = ' + id_task + '] tr .name_project').html(descr);
+                $('[data-project-id = ' + id_task + ']').attr('data-project-descr',descr);
             } else {
                 $('[data-id-task = ' + id_task + '] td .name_task').html(descr);
             }
